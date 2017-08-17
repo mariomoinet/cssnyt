@@ -1,0 +1,133 @@
+/*--------------------header----------------------------------------------- */
+
+header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  text-decoration: none;
+}
+
+.boutons-1 {
+  margin: 40px;
+}
+
+.boutons-1 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.boutons-2 {
+  display: flex;
+}
+
+.boutonb a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.boutonb {
+  width: 96px;
+  height: 30px;
+  margin: 7px;
+  background: #6288A5;
+  border-radius: 8px;
+  text-align: center
+}
+
+.articles_container {
+  display: flex;
+  border: 1px solid;
+  height: 75px;
+}
+
+#avion {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex: 1;
+}
+
+#lune {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex: 1;
+}
+
+#meteorite {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex: 1;
+}
+
+#vieux {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex: 1;
+}
+
+.miniatures {
+  flex: 1;
+  justify-content: center;
+}
+
+.titres {
+  flex: 2;
+  justify-content: center;
+}
+
+.corp {
+  padding: 1px 90px 1px 90px;
+}
+
+#sous_titre {
+  display: flex;
+}
+
+.reseau {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.reseau a {
+  padding: 5px;
+}
+
+.letexte {
+  padding: 1px 100px 1px 100px;
+}
+
+.petitesimages_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.petitesimages1 {
+  flex: 1;
+display:flex;
+}
+
+.petitesimages2 {
+  flex: 1;
+  display: flex;
+}
+
+.image42 {padding: 8px;}
+footer{display: flex;padding:1px 80px 1px 80px}
+.articlesfooter_container{display: flex;flex-wrap: wrap;max-width: 700px;}
+.listefooter_container{display: flex;flex-direction: column;max-width: 700px;}
+.articlesfooter{flex: 1;display: flex; flex-direction: column;}
+.listefooter{flex: 1;display: flex;}
